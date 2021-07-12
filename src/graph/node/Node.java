@@ -1,7 +1,5 @@
 package graph.node;
 
-import java.util.Comparator;
-
 /**
  * Clase para guardar los valores que contiene cada nodo.
  * Esta clase guardara la informacion correspondiente a una
