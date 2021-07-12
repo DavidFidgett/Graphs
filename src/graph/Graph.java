@@ -216,6 +216,15 @@ public class Graph {
         System.out.println(visitedNodes);
     }
 
+    /**
+     * Implementacion de Busqueda en Profundidad (DFS).
+     * Partiendo del nodo v ingresado, se creara un arreglo de booleanos con un
+     * tamaño V correspondiente al numero de vertices que existen en el grafo.
+     * Se hace uso de la funcion recursiva
+     * {@link #DFSUtil(int, boolean[], StringBuilder)} para la implementacion de
+     * este tipo de busqueda.
+     * @param v Nodo inicial
+     */
     public void DFS(int v){
         boolean[] visited = new boolean[V];
         StringBuilder sb = new StringBuilder(" {");
@@ -226,6 +235,15 @@ public class Graph {
         System.out.println(visitedNodes);
     }
 
+    /**
+     * Implementacion de Busqueda en Profundidad (DFS).
+     * Partiendo del nodo v ingresado, se creara un arreglo de booleanos con un
+     * tamaño V correspondiente al numero de vertices que existen en el grafo.
+     * Se hace uso de la funcion recursiva
+     * {@link #DFSUtil(int, boolean[], StringBuilder)} para la implementacion de
+     * este tipo de busqueda.
+     * @param s Nodo inicial
+     */
     public void DFS(String s){
         int v = convert(s);
         boolean[] visited = new boolean[V];
@@ -237,6 +255,23 @@ public class Graph {
         System.out.println(visitedNodes);
     }
 
+    /**
+     * Implementacion recursiva de DFS.
+     * El nodo ingresado a esta funcion sera marcado como visitado en
+     * el arreglo de booleanos creado previamente en la funcion
+     * {@link #DFS(int)}, posteriormente se verificaran los nodos
+     * adyacentes al nodo ingresado a la funcion. Si el nodo adyacente
+     * que se esta revisando no ha sido visitado, se hace una llamada
+     * recursiva a esta misma funcion, y se repite el proceso descrito
+     * con anterioridad.
+     * El caso base de este metodo sera cuando ya se hayan revisado todos
+     * los nodos adyacentes de todos los nodos en la lista de adyacencia del
+     * grafo, dandonos como resultado una lista con todos los nodos del grafo
+     * visitados a partir del nodo inicial.
+     * @param v Nodo a marcar como visitado.
+     * @param visited Arreglo de booleanos.
+     * @param sb StringBuilder para impresion de la secuencia del recorrido.
+     */
     private void DFSUtil(int v, boolean[] visited, StringBuilder sb){
         visited[v] = true;
         char c = d.get(v);
