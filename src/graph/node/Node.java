@@ -2,6 +2,15 @@ package graph.node;
 
 import java.util.Comparator;
 
+/**
+ * Clase para guardar los valores que contiene cada nodo.
+ * Esta clase guardara la informacion correspondiente a una
+ * conexion entre dos nodos para poder implementar esta clase
+ * en el uso de los distintos grafos.
+ * Se guardara el nodo del cual se origina la direccion, el
+ * nodo hacia el cual se dirige la conexion, y el costo de
+ * la arista en caso de que se trate de un grafo ponderado.
+ */
 public class Node {
     public int srcNode;
     public int destNode;
