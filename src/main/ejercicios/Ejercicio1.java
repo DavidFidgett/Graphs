@@ -4,6 +4,8 @@ import graph.SimpleGraph;
 
 /**
  * Clase Correspondiente al Ejercicio #1
+ *
+ * @author David Fidgett
  */
 public class Ejercicio1 {
     /**

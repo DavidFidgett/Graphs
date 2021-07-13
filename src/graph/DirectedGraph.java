@@ -4,6 +4,8 @@ import graph.node.Node;
 
 /**
  * Implementacion de Grafo Dirigido No Ponderado.
+ *
+ * @author David Fidgett
  */
 public class DirectedGraph extends Graph{
     /**

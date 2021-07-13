@@ -5,6 +5,8 @@ import main.AdjLists;
 
 /**
  * Clase correspondiente al Ejercicio #5
+ *
+ * @author David Fidgett
  */
 public class Ejercicio5 {
     /**
@@ -27,12 +29,15 @@ public class Ejercicio5 {
      *             }
      *         }
      *     }
+     * }</pre>
      *
+     * <pre>{@code
      *     void DFS(int v) {
      *         boolean visited[] = new Boolean[V];
      *         DFSUtil (v, visited);
      *     }
      * }</pre>
+     *
      */
     public static void run(){
         System.out.println(" Ejercicio 5.- DFS");

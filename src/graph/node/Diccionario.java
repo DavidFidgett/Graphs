@@ -7,6 +7,8 @@ import java.util.Hashtable;
  * Esta tabla hash tomara como clave los numeros del
  * 0 al 25 y sus respectivos valores seran la letra del
  * alfabeto que les corresponde (0 = A, 1 = B, etc).
+ *
+ * @author David Fidgett
  */
 public class Diccionario extends Hashtable<Integer, Character> {
     public Diccionario(){
