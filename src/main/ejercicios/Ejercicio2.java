@@ -4,7 +4,29 @@ import graph.DirectedGraph;
 
 import java.util.Scanner;
 
+/**
+ * Clase correspondiente al Ejercicio #2
+ */
 public class Ejercicio2 {
+    /**
+     * Metodo correspondiente a la Clase Principal del Ejercicio #2
+     * Implementacion de Grafos Dirigidos.
+     * En este ejercicio se realizaron modificaciones a la clase
+     * {@link graph.SimpleGraph} para la implementacion de grafos
+     * dirigidos.
+     * La principal diferencia es que, a diferencia de un grafo
+     * simple donde al agregar o eliminar un arista, se debe hacer
+     * la asociacion tanto para el nodo origen hacia el nodo destino
+     * como para el nodo destino hacia el nodo origen, en el caso de
+     * grafos dirigidos solo se debe de realizar la asociacion en la
+     * lista de adyacencia para el nodo origen hacia el nodo destino.
+     * Para este ejercicio, se realizo un menu para que el usuario pueda
+     * crear su propio grafo dirigido, indicando al inicio el numero de
+     * vertices con los que quiere que el grafo cuente, para posteriormente
+     * mostrar las opciones para agregar un arista, eliminarla, ver la
+     * lista de adyacencia del grafo, y terminar la ejecucion de
+     * este metodo.
+     */
     public static void run(){
         Scanner sc = new Scanner(System.in);
         System.out.println("\n Ejercicio 2.- Grafos Dirigidos");
