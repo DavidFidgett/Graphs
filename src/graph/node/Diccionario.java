@@ -8,7 +8,7 @@ import java.util.Hashtable;
  * 0 al 25 y sus respectivos valores seran la letra del
  * alfabeto que les corresponde (0 = A, 1 = B, etc).
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class Diccionario extends Hashtable<Integer, Character> {
     /**

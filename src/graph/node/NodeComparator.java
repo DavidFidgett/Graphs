@@ -5,7 +5,7 @@ import java.util.Comparator;
 /**
  * Clase Comparator para la clase {@link Node}
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class NodeComparator implements Comparator<Node> {
     @Override

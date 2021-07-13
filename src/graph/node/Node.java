@@ -9,7 +9,7 @@ package graph.node;
  * nodo hacia el cual se dirige la conexion, y el costo de
  * la arista en caso de que se trate de un grafo ponderado.
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class Node {
     /**

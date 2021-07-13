@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 /**
  * Implementacion de Grafo Ponderado No Dirigido.
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class WeightedGraph extends Graph{
     /**

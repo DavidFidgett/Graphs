@@ -3,6 +3,8 @@ package main;
 /**
  * Clase auxiliar que contiene listas de adyacencias de
  * diferentes grafos.
+ *
+ * @author David Gutierrez Marin
  */
 public class AdjLists {
 
