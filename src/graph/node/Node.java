@@ -24,6 +24,10 @@ public class Node {
      * Costo de la Arista
      */
     public int weight;
+    /**
+     * {@link Diccionario} que sirve para poder implenentar los grafos
+     * ya sea mostrando numeros o letras.
+     */
     Diccionario d = new Diccionario();
 
     /**

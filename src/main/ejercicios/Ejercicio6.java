@@ -21,23 +21,7 @@ public class Ejercicio6 {
      * {@link graph.WeightedGraph#loadGraph(int[][][])} ingresando
      * como arreglo tridimensional con los valores correspondientes
      * {@link AdjLists#wg_02}.
-     *
-     *                 (B)
-     *                /   \
-     *              [3]   [6]
-     *              /       \
-     *  (A)--[6]--(J)--[3]--(I)
-     *   |         |         |
-     *  [5]       [4]       [4]
-     *   |         |         |
-     *  (C)--[5]--(D)--[4]--(F)
-     *             |       _/|
-     *             |      /  |
-     *            [3]   [2] [4]
-     *             |   _/    |
-     *             | _/      |
-     *             |/        |
-     *            (E)--[2]--(G)--[3]--(H)
+     * <img src="doc-files/wg_02.png" alt="Grafo Ponderado">
      *
      */
     public static void run(){
