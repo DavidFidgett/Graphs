@@ -3,7 +3,41 @@ package main.ejercicios;
 import graph.WeightedGraph;
 import main.AdjLists;
 
+/**
+ * Clase correspondiente al Ejercicio #6
+ */
 public class Ejercicio6 {
+    /**
+     * Metodo correspondiente a la Clase Principal del Ejercicio #6
+     * Implementacion del Algoritmo de Primm.
+     * La implementacion del Algoritmo de Primm para Grafos Ponderados
+     * No Dirigidos puede ser consultada en
+     * {@link graph.WeightedGraph#primm(int)}.
+     * Para este ejercicio se pidio implementar el siguiente grafo, cuya
+     * lista de adyacencia es cargada en una nueva instancia de un
+     * {@link graph.WeightedGraph} a traves del metodo
+     * {@link graph.WeightedGraph#loadGraph(int[][][])} ingresando
+     * como arreglo tridimensional con los valores correspondientes
+     * {@link AdjLists#wg_02}.
+     *
+     *                 (B)
+     *                /   \
+     *              [3]   [6]
+     *              /       \
+     *  (A)--[6]--(J)--[3]--(I)
+     *   |         |         |
+     *  [5]       [4]       [4]
+     *   |         |         |
+     *  (C)--[5]--(D)--[4]--(F)
+     *             |       _/|
+     *             |      /  |
+     *            [3]   [2] [4]
+     *             |   _/    |
+     *             | _/      |
+     *             |/        |
+     *            (E)--[2]--(G)--[3]--(H)
+     *
+     */
     public static void run(){
         System.out.println("\n Ejercicio 6.- Algoritmo de Primm");
         System.out.println(" Grafo de la practica 6: ");
