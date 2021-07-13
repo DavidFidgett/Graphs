@@ -27,7 +27,7 @@ public class Ejercicio5 {
      *             }
      *         }
      *     }
-     *
+     *     @code
      *     void DFS(int v) {
      *         boolean visited[] = new Boolean[V];
      *         DFSUtil (v, visited);
