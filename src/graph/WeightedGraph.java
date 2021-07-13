@@ -234,7 +234,6 @@ public class WeightedGraph extends Graph{
             totalWeight += node.weight;
         }
         System.out.println("}");
-//        System.out.println(" Total Weight: " + totalWeight);
         return totalWeight;
     }
 
@@ -314,7 +313,6 @@ public class WeightedGraph extends Graph{
             totalWeight += node.weight;
         }
         System.out.println("}");
-        // System.out.println(" Total Weight: " + totalWeight);
         return totalWeight;
     }
 

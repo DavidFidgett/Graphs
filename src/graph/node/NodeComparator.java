@@ -2,6 +2,9 @@ package graph.node;
 
 import java.util.Comparator;
 
+/**
+ * Clase Comparator para la clase {@link Node}
+ */
 public class NodeComparator implements Comparator<Node> {
     @Override
     public int compare(Node o1, Node o2) {
