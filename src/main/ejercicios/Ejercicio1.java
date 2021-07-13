@@ -5,7 +5,7 @@ import graph.SimpleGraph;
 /**
  * Clase Correspondiente al Ejercicio #1
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class Ejercicio1 {
     /**

@@ -5,7 +5,7 @@ import graph.node.Node;
 /**
  * Implementacion de Grafo Dirigido No Ponderado.
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class DirectedGraph extends Graph{
     /**

@@ -5,7 +5,7 @@ import graph.node.Node;
 /**
  * Implementacion de Grafo No Ponderado No Dirigido.
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class SimpleGraph extends Graph{
     /**

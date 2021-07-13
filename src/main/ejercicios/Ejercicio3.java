@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Clase correspondiente al Ejercicio #3
  *
- * @author David Fidgett
+ * @author David Gutierrez Marin
  */
 public class Ejercicio3 {
     /**
