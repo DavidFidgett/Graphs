@@ -3,7 +3,40 @@ package main.ejercicios;
 import graph.SimpleGraph;
 import main.AdjLists;
 
+/**
+ * Clase correspondiente al Ejercicio #4
+ */
 public class Ejercicio4 {
+    /**
+     * Metodo correspondiente a la Clase Principal del Ejercicio #4
+     * Implementacion de Breadth First Search.
+     * En este ejercicio se pidio agregar a la clase
+     * {@link graph.Graph} la implementacion de BFS
+     * {@link graph.Graph#BFS(int)} descrita a continuacion:
+     * <pre>{@code
+     *     void BFS(int s) {
+     *         boolean visited[] = new boolean[V];
+     *
+     *         LinkedList <Integer> queue = new LinkedList<Integer>();
+     *
+     *         visited[s] = true;
+     *         queue.add(s);
+     *         while (queue.size() != 0) {
+     *             s = queue.poll();
+     *             System.out.print(s+" ");
+     *
+     *             Iterator<Integer> i = adjArray[s].listIterator();
+     *             while (i.hasnext()) {
+     *                 int n = i.next();
+     *                 if (!visited[n]) {
+     *                     visited[n] = true;
+     *                     queue.add(n);
+     *                 }
+     *             }
+     *         }
+     *     }
+     *}</pre>
+     */
     public static void run(){
         System.out.println("\n Ejercicio 4 .- BFS");
         System.out.println(" Grafo numero 1: ");

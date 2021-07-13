@@ -3,7 +3,37 @@ package main.ejercicios;
 import graph.SimpleGraph;
 import main.AdjLists;
 
+/**
+ * Clase correspondiente al Ejercicio #5
+ */
 public class Ejercicio5 {
+    /**
+     * Metodo correspondiente a la Clase Principal del ejercicio #5
+     * Implementacion de Depth First Search.
+     * En este ejercicio se pidio agregar a la clase
+     * {@link graph.Graph} la implementacion de DFS
+     * {@link graph.Graph#DFS(int)} descrita a continuacion:
+     * <pre>{@code
+     *
+     *     void DFSUtil (int v,boolean visited[]) {
+     *         visited[v] = true;
+     *         System.out.print(v+" ");
+     *
+     *         Iterator<Integer> i = adjArray[v].listIterator();
+     *         while (i.hasNext()) {
+     *             int n = i.next();
+     *             if (!visited[n]) {
+     *                 DFSUtil(n, visited);
+     *             }
+     *         }
+     *     }
+     *
+     *     void DFS(int v) {
+     *         boolean visited[] = new Boolean[V];
+     *         DFSUtil (v, visited);
+     *     }
+     * }</pre>
+     */
     public static void run(){
         System.out.println(" Ejercicio 5.- DFS");
         System.out.println(" Grafo propuesto: ");
