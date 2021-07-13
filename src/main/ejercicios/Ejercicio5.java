@@ -27,12 +27,15 @@ public class Ejercicio5 {
      *             }
      *         }
      *     }
-     *     @code
+     * }</pre>
+     *
+     * <pre>{@code
      *     void DFS(int v) {
      *         boolean visited[] = new Boolean[V];
      *         DFSUtil (v, visited);
      *     }
      * }</pre>
+     *
      */
     public static void run(){
         System.out.println(" Ejercicio 5.- DFS");
