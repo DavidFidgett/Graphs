@@ -8,6 +8,8 @@ package graph.node;
  * Se guardara el nodo del cual se origina la direccion, el
  * nodo hacia el cual se dirige la conexion, y el costo de
  * la arista en caso de que se trate de un grafo ponderado.
+ *
+ * @author David Fidgett
  */
 public class Node {
     /**

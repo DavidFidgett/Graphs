@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 /**
  * Clase correspondiente al Ejercicio #3
+ *
+ * @author David Fidgett
  */
 public class Ejercicio3 {
     /**

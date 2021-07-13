@@ -11,6 +11,8 @@ import java.util.LinkedList;
  * generales para todos los
  * diferentes tipos de grafos a implementar (grafo simple, direccionado,
  * ponderado, direccionado y ponderado).
+ *
+ * @author David Fidgett
  */
 public class Graph {
     /**

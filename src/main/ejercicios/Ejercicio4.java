@@ -5,6 +5,8 @@ import main.AdjLists;
 
 /**
  * Clase correspondiente al Ejercicio #4
+ *
+ * @author David Fidgett
  */
 public class Ejercicio4 {
     /**
