@@ -11,6 +11,9 @@ import java.util.Hashtable;
  * @author David Fidgett
  */
 public class Diccionario extends Hashtable<Integer, Character> {
+    /**
+     * Constructor de la Clase Diccionario.
+     */
     public Diccionario(){
         for (int i = 0; i < 26; i++) {
             char c = (char) ('A' + i);
