@@ -4,7 +4,24 @@ import main.ejercicios.*;
 
 import java.util.Scanner;
 
+/**
+ * Clase Principal para ejecucion de la Practica 6-7.
+ * <br>
+ *     EDA 2 G08 P6-7
+ *     David Gutierrez Marin
+ *     <br>
+ *         Algoritmos de Grafos.
+ *
+ * @author David Gutierrez Marin
+ */
 public class Main {
+    /**
+     * Metodo main de la Clase Principal.
+     * Este metodo contiene un menu para poder acceder a
+     * las implementaciones de los metodos que requiere
+     * cada ejercicio de la practica.
+     * @param args n/a
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int menu;
